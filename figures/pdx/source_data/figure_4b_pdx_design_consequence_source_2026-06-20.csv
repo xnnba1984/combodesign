@@ -1,0 +1,9 @@
+candidate,design_summary,total_N,joint_power,valid_design_input
+BYL719 + binimetinib,Plug-in optimized,175,0.801,True
+BYL719 + binimetinib,Lower-bound effects,713,0.800,True
+BYL719 + LEE011,Plug-in optimized,72,0.801,True
+BYL719 + LEE011,Lower-bound effects,180,0.802,True
+LEE011 + encorafenib,Plug-in optimized,85,0.803,True
+LEE011 + encorafenib,Lower-bound effects,200,0.802,True
+BKM120 + binimetinib,Plug-in optimized,1042,0.800,True
+BKM120 + binimetinib,Lower-bound effects,,,False

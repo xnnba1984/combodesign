@@ -1,0 +1,17 @@
+artifact_type,artifact,path,manuscript_role
+figure,figure_3a_error_control,figures/simulation/figure_3a_error_control_2026-06-19.pdf; .png,Main figure candidate: false full-contribution control
+figure,figure_3b_joint_success,figures/simulation/figure_3b_joint_success_2026-06-19.pdf; .png,Main figure candidate: joint power under allocation choices
+figure,figure_3c_allocation_fragility,figures/simulation/figure_3c_allocation_fragility_2026-06-19.pdf; .png,Main or supplement figure candidate: allocation fragility
+source_data,figure_3a_source,figures/simulation/source_data/figure_3a_error_control_source_2026-06-19.csv,Source data for Figure 3A
+source_data,figure_3b_source,figures/simulation/source_data/figure_3b_joint_success_source_2026-06-19.csv,Source data for Figure 3B
+source_data,figure_3c_source,figures/simulation/source_data/figure_3c_allocation_fragility_source_2026-06-19.csv,Source data for Figure 3C
+source_data,table_3_source,figures/simulation/source_data/table_3_simulation_main_source_2026-06-19.csv,Source data for main simulation table
+main_table,table_3_simulation_main,tables/simulation/table_3_simulation_main_2026-06-19.csv; tables/simulation/table_3_simulation_main_2026-06-20.csv,Main simulation table candidate
+supplement_table,methods,tables/simulation/supp_table_simulation_methods_2026-06-19.csv,Supplement simulation method table
+supplement_table,scenarios,tables/simulation/supp_table_simulation_scenario_grid_2026-06-19.csv,Supplement simulation scenario grid
+supplement_table,error,tables/simulation/supp_table_simulation_error_control_full_2026-06-19.csv,Supplement full error-control table
+supplement_table,joint,tables/simulation/supp_table_simulation_joint_success_full_2026-06-19.csv,Supplement full joint-power table
+supplement_table,fragility,tables/simulation/supp_table_simulation_allocation_fragility_full_2026-06-19.csv,Supplement full allocation-fragility table
+supplement_table,robustness,tables/simulation/supp_table_simulation_robustness_full_2026-06-19.csv,Supplement full robustness table
+supplement_table,validation,tables/simulation/supp_table_simulation_validation_checks_2026-06-19.csv,Supplement validation check table
+qa,simulation_display_qa,tables/simulation/simulation_display_qa_2026-06-19.csv,Display artifact QA

@@ -1,0 +1,21 @@
+scenario_label,scenario_display,method_id,method_display,empirical_joint_success,lower,upper,analytic_joint_success,allocation_A,allocation_B,allocation_AB,nrep
+balanced_positive,Balanced positive,equal_iut_full,"Equal allocation, IUT",0.705,0.701,0.709,0.704,0.333,0.333,0.333,50000
+balanced_positive,Balanced positive,shared_arm_iut_full,"Shared-arm, IUT",0.712,0.708,0.716,0.711,0.293,0.293,0.414,50000
+balanced_positive,Balanced positive,plugin_iut_full,"Plug-in allocation, IUT",0.703,0.699,0.707,0.704,0.333,0.333,0.333,50000
+balanced_positive,Balanced positive,conservative_iut_full,"Conservative allocation, IUT",0.706,0.702,0.71,0.704,0.333,0.333,0.333,50000
+limiting_AB_minus_A,First contrast harder,equal_iut_full,"Equal allocation, IUT",0.452,0.448,0.456,0.448,0.333,0.333,0.333,50000
+limiting_AB_minus_A,First contrast harder,shared_arm_iut_full,"Shared-arm, IUT",0.457,0.452,0.461,0.458,0.293,0.293,0.414,50000
+limiting_AB_minus_A,First contrast harder,plugin_iut_full,"Plug-in allocation, IUT",0.503,0.499,0.507,0.499,0.397,0.201,0.402,50000
+limiting_AB_minus_A,First contrast harder,conservative_iut_full,"Conservative allocation, IUT",0.477,0.473,0.481,0.479,0.366,0.27,0.364,50000
+limiting_AB_minus_B,Second contrast harder,equal_iut_full,"Equal allocation, IUT",0.45,0.445,0.454,0.448,0.333,0.333,0.333,50000
+limiting_AB_minus_B,Second contrast harder,shared_arm_iut_full,"Shared-arm, IUT",0.459,0.455,0.464,0.458,0.293,0.293,0.414,50000
+limiting_AB_minus_B,Second contrast harder,plugin_iut_full,"Plug-in allocation, IUT",0.498,0.494,0.502,0.499,0.201,0.397,0.402,50000
+limiting_AB_minus_B,Second contrast harder,conservative_iut_full,"Conservative allocation, IUT",0.479,0.474,0.483,0.479,0.27,0.366,0.364,50000
+positive_margin,Positive margin,equal_iut_full,"Equal allocation, IUT",0.781,0.777,0.784,0.783,0.333,0.333,0.333,50000
+positive_margin,Positive margin,shared_arm_iut_full,"Shared-arm, IUT",0.791,0.787,0.794,0.791,0.293,0.293,0.414,50000
+positive_margin,Positive margin,plugin_iut_full,"Plug-in allocation, IUT",0.783,0.779,0.786,0.783,0.333,0.333,0.333,50000
+positive_margin,Positive margin,conservative_iut_full,"Conservative allocation, IUT",0.785,0.781,0.788,0.783,0.333,0.333,0.333,50000
+additive_positive_excess,Additive positive excess,equal_iut_full,"Equal allocation, IUT",0.505,0.501,0.51,0.497,0.333,0.333,0.333,50000
+additive_positive_excess,Additive positive excess,shared_arm_iut_full,"Shared-arm, IUT",0.505,0.501,0.51,0.5,0.293,0.293,0.414,50000
+additive_positive_excess,Additive positive excess,plugin_iut_full,"Plug-in allocation, IUT",0.503,0.499,0.508,0.504,0.279,0.333,0.389,50000
+additive_positive_excess,Additive positive excess,conservative_iut_full,"Conservative allocation, IUT",0.502,0.498,0.506,0.501,0.313,0.348,0.339,50000

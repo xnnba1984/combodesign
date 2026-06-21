@@ -1,0 +1,12 @@
+check,pass,observed,expected,detail
+source data has expected dimensions from PDX contract,TRUE,4758 x 12,4758 x 12 after adding favorable_response,Raw file has 11 columns; script adds one derived endpoint column.
+all planned PDX candidates have at least 20 complete triplets,TRUE,BYL719 + binimetinib=42; LEE011 + encorafenib=33; BYL719 + LEE011=39; BKM120 + binimetinib=62,all n_triplet >= 20,NA
+bootstrap effect validity fraction is high,TRUE,BYL719 + binimetinib=1; LEE011 + encorafenib=1; BYL719 + LEE011=1; BKM120 + binimetinib=1,all valid fractions >= 0.95,NA
+clinical covariance model is independent randomized arms,TRUE,independent_arms,independent_arms,PDX-derived arm correlations are not used in clinical design calculations.
+primary one-sided alpha is 0.025,TRUE,0.025,0.025,NA
+plug-in joint optimized designs reach target joint power,TRUE,BKM120 + binimetinib=0.8; BYL719 + LEE011=0.801; BYL719 + binimetinib=0.801; LEE011 + encorafenib=0.803,all >= 0.8,NA
+plug-in optimized allocations respect lower bound,TRUE,BKM120 + binimetinib=0.1/0.45/0.45; BYL719 + LEE011=0.332/0.269/0.4; BYL719 + binimetinib=0.332/0.268/0.4; LEE011 + encorafenib=0.357/0.239/0.405,all arms >= 0.1,NA
+invalid lower-bound effect case is explicitly flagged rather than forced,TRUE,BKM120 + binimetinib=FALSE; BYL719 + LEE011=TRUE; BYL719 + binimetinib=TRUE; LEE011 + encorafenib=TRUE,"invalid lower-bound effects flagged, valid lower-bound effects produce designs",NA
+optimized allocation does not require more total N than equal allocation,TRUE,BKM120 + binimetinib=plug_in=1404->1042; BYL719 + LEE011=plug_in=75->72; BYL719 + LEE011=bootstrap_lower_95_effects=183->180; BYL719 + binimetinib=plug_in=180->175; BYL719 + binimetinib=bootstrap_lower_95_effects=769->713; LEE011 + encorafenib=plug_in=90->85; LEE011 + encorafenib=bootstrap_lower_95_effects=228->200,joint optimized N <= equal allocation N for all valid scenarios,NA
+primary plug-in design is evaluated under lower-bound contribution effects,TRUE,0.189,finite lower-bound joint power value,NA
+clinical variance sensitivity generated for primary PDX case,TRUE,6 rows,plug-in and lower-bound inputs at three clinical SD multipliers,NA

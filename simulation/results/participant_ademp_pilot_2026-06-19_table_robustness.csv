@@ -1,0 +1,16 @@
+"scenario_label","scenario_family","method_id","claim_regime","variance_method","distribution","alpha","N","nrep","empirical_joint_success","empirical_joint_success_lcl","empirical_joint_success_ucl","analytic_joint_success","empirical_false_full_contribution","empirical_any_true_reject"
+"positive_margin","margin_sensitivity","equal_iut_full","full_contribution","common","normal",0.025,280,3000,0.781667,0.766884,0.79645,0.782826,NA,NA
+"positive_margin","margin_sensitivity","plugin_iut_full","full_contribution","common","normal",0.025,280,3000,0.777667,0.762787,0.792546,0.782826,NA,NA
+"positive_margin","margin_sensitivity","conservative_iut_full","full_contribution","common","normal",0.025,280,3000,0.766667,0.751532,0.781802,0.782826,NA,NA
+"positive_margin","margin_sensitivity","marginal_iut_full","full_contribution","common","normal",0.025,280,3000,0.788333,0.773716,0.802951,0.782826,NA,NA
+"positive_margin","margin_sensitivity","equal_maxT_separate","separate_component_claims","common","normal",0.025,280,3000,0.679,0.662294,0.695706,0.694592,NA,NA
+"unequal_variance_positive","variance_sensitivity","equal_iut_full","full_contribution","welch","normal",0.025,270,3000,0.716333,0.700202,0.732464,0.706423,NA,NA
+"unequal_variance_positive","variance_sensitivity","plugin_iut_full","full_contribution","welch","normal",0.025,270,3000,0.701333,0.684956,0.717711,0.706423,NA,NA
+"unequal_variance_positive","variance_sensitivity","conservative_iut_full","full_contribution","welch","normal",0.025,270,3000,0.708667,0.692407,0.724926,0.706423,NA,NA
+"unequal_variance_positive","variance_sensitivity","marginal_iut_full","full_contribution","welch","normal",0.025,270,3000,0.686,0.669392,0.702608,0.706423,NA,NA
+"unequal_variance_positive","variance_sensitivity","equal_maxT_separate","separate_component_claims","welch","normal",0.025,270,3000,0.599,0.581462,0.616538,0.600648,NA,NA
+"heavy_tail_global_null","distribution_sensitivity","equal_iut_full","full_contribution","common","t5",0.025,300,3000,0.005333,0.002727,0.00794,0.004622,0.005333,0.048667
+"heavy_tail_global_null","distribution_sensitivity","plugin_iut_full","full_contribution","common","t5",0.025,300,3000,0.004667,0.002228,0.007106,0.004622,0.004667,0.056667
+"heavy_tail_global_null","distribution_sensitivity","conservative_iut_full","full_contribution","common","t5",0.025,300,3000,0.004,0.001741,0.006259,0.004622,0.004,0.035333
+"heavy_tail_global_null","distribution_sensitivity","marginal_iut_full","full_contribution","common","t5",0.025,300,3000,0.005,0.002476,0.007524,0.004622,0.005,0.044333
+"heavy_tail_global_null","distribution_sensitivity","equal_maxT_separate","separate_component_claims","common","t5",0.025,300,3000,0.001667,0.000207,0.003126,0.001957,0.001667,0.022

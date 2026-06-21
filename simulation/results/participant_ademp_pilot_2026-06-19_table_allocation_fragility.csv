@@ -1,0 +1,9 @@
+"scenario_label","method_id","allocation_strategy","N","nrep","truth_delta_AB_minus_A","truth_delta_AB_minus_B","plan_delta_AB_minus_A","plan_delta_AB_minus_B","allocation_A","allocation_B","allocation_AB","empirical_joint_success","analytic_joint_success","planned_analytic_joint_success"
+"overoptimistic_planning","equal_iut_full","equal",240,3000,0.32,0.32,0.55,0.55,0.333333,0.333333,0.333333,0.338667,0.359181,0.888537
+"overoptimistic_planning","plugin_iut_full","plugin_joint_success",240,3000,0.32,0.32,0.55,0.55,0.333333,0.333333,0.333333,0.370333,0.359181,0.888537
+"overoptimistic_planning","conservative_iut_full","conservative_joint_success",240,3000,0.32,0.32,0.55,0.55,0.333333,0.333333,0.333333,0.372,0.359181,0.888537
+"overoptimistic_planning","marginal_iut_full","marginal_power_comparator",240,3000,0.32,0.32,0.55,0.55,0.333333,0.333333,0.333333,0.377333,0.359181,0.888537
+"reversed_limiting_component","equal_iut_full","equal",260,3000,0.25,0.55,0.55,0.25,0.333333,0.333333,0.333333,0.362667,0.373035,0.373035
+"reversed_limiting_component","plugin_iut_full","plugin_joint_success",260,3000,0.25,0.55,0.55,0.25,0.21446,0.391672,0.393868,0.322667,0.322488,0.416894
+"reversed_limiting_component","conservative_iut_full","conservative_joint_success",260,3000,0.25,0.55,0.55,0.25,0.287045,0.357952,0.355004,0.366667,0.359783,0.392417
+"reversed_limiting_component","marginal_iut_full","marginal_power_comparator",260,3000,0.25,0.55,0.55,0.25,0.207724,0.396138,0.396138,0.326,0.317135,0.418622

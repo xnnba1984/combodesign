@@ -1,0 +1,9 @@
+candidate,contrast,median,lower_95,upper_95,valid_bootstrap_fraction
+BYL719 + binimetinib,AB - A,0.565,0.251,1.066,1
+BYL719 + binimetinib,AB - B,0.642,0.342,1.123,1
+BYL719 + LEE011,AB - A,0.858,0.564,1.189,1
+BYL719 + LEE011,AB - B,0.982,0.571,1.449,1
+LEE011 + encorafenib,AB - A,0.765,0.456,1.204,1
+LEE011 + encorafenib,AB - B,0.969,0.716,1.260,1
+BKM120 + binimetinib,AB - A,0.530,0.284,0.811,1
+BKM120 + binimetinib,AB - B,0.186,-0.065,0.434,1

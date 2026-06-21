@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1350" viewBox="0 0 2400 1350">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="80.0" y="110.0" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="bold" text-anchor="start" fill="#000000">A</text>
+<text x="1280.0" y="110.0" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="bold" text-anchor="start" fill="#000000">B</text>
+<circle cx="360" cy="84" r="10" fill="#5477C4" stroke="#000000" stroke-width="2"/>
+<text x="392.0" y="94.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="start" fill="#000000">AB - A</text>
+<circle cx="555" cy="84" r="10" fill="#CC6F47" stroke="#000000" stroke-width="2"/>
+<text x="587.0" y="94.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="start" fill="#000000">AB - B</text>
+<circle cx="1435" cy="84" r="10" fill="#5477C4" stroke="#000000" stroke-width="2"/>
+<text x="1467.0" y="94.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="start" fill="#000000">Plug-in</text>
+<circle cx="1635" cy="84" r="10" fill="#CC6F47" stroke="#000000" stroke-width="2"/>
+<text x="1667.0" y="94.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="start" fill="#000000">Lower-bound</text>
+<line x1="350.0" y1="1040.0" x2="1125.0" y2="1040.0" stroke="#000000" stroke-width="3"/>
+<line x1="350.0" y1="110.0" x2="350.0" y2="1040.0" stroke="#000000" stroke-width="3"/>
+<line x1="441.2" y1="110.0" x2="441.2" y2="1040.0" stroke="#D9D9D9" stroke-width="2"/>
+<line x1="441.2" y1="1040.0" x2="441.2" y2="1050.0" stroke="#000000" stroke-width="3"/>
+<text x="441.2" y="1090.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="middle" fill="#000000">0</text>
+<line x1="669.1" y1="110.0" x2="669.1" y2="1040.0" stroke="#D9D9D9" stroke-width="2"/>
+<line x1="669.1" y1="1040.0" x2="669.1" y2="1050.0" stroke="#000000" stroke-width="3"/>
+<text x="669.1" y="1090.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="middle" fill="#000000">0.5</text>
+<line x1="897.1" y1="110.0" x2="897.1" y2="1040.0" stroke="#D9D9D9" stroke-width="2"/>
+<line x1="897.1" y1="1040.0" x2="897.1" y2="1050.0" stroke="#000000" stroke-width="3"/>
+<text x="897.1" y="1090.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="middle" fill="#000000">1</text>
+<line x1="1125.0" y1="110.0" x2="1125.0" y2="1040.0" stroke="#D9D9D9" stroke-width="2"/>
+<line x1="1125.0" y1="1040.0" x2="1125.0" y2="1050.0" stroke="#000000" stroke-width="3"/>
+<text x="1125.0" y="1090.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="middle" fill="#000000">1.5</text>
+<text x="737.5" y="1145.0" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" text-anchor="middle" fill="#000000">Bootstrap contribution effect</text>
+<line x1="441.2" y1="110.0" x2="441.2" y2="1040.0" stroke="#000000" stroke-width="2"/>
+<text x="70.0" y="193.0" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="normal" text-anchor="start" fill="#000000">BYL719 +</text>
+<text x="70.0" y="236.0" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="normal" text-anchor="start" fill="#000000">binimetinib</text>
+<line x1="555.6" y1="183.0" x2="927.1" y2="183.0" stroke="#5477C4" stroke-width="6"/>
+<line x1="555.6" y1="169.0" x2="555.6" y2="197.0" stroke="#5477C4" stroke-width="5"/>
+<line x1="927.1" y1="169.0" x2="927.1" y2="197.0" stroke="#5477C4" stroke-width="5"/>
+<circle cx="698.8" cy="183.0" r="13" fill="#5477C4" stroke="#2E4780" stroke-width="3"/>
+<line x1="597.1" y1="227.0" x2="953.1" y2="227.0" stroke="#CC6F47" stroke-width="6"/>
+<line x1="597.1" y1="213.0" x2="597.1" y2="241.0" stroke="#CC6F47" stroke-width="5"/>
+<line x1="953.1" y1="213.0" x2="953.1" y2="241.0" stroke="#CC6F47" stroke-width="5"/>
+<circle cx="733.9" cy="227.0" r="13" fill="#CC6F47" stroke="#804126" stroke-width="3"/>
+<text x="70.0" y="441.0" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="normal" text-anchor="start" fill="#000000">BYL719 +</text>
+<text x="70.0" y="484.0" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="normal" text-anchor="start" fill="#000000">LEE011</text>
+<line x1="698.3" y1="431.0" x2="983.2" y2="431.0" stroke="#5477C4" stroke-width="6"/>
+<line x1="698.3" y1="417.0" x2="698.3" y2="445.0" stroke="#5477C4" stroke-width="5"/>
+<line x1="983.2" y1="417.0" x2="983.2" y2="445.0" stroke="#5477C4" stroke-width="5"/>
+<circle cx="832.3" cy="431.0" r="13" fill="#5477C4" stroke="#2E4780" stroke-width="3"/>
+<line x1="701.5" y1="475.0" x2="1101.8" y2="475.0" stroke="#CC6F47" stroke-width="6"/>
+<line x1="701.5" y1="461.0" x2="701.5" y2="489.0" stroke="#CC6F47" stroke-width="5"/>
+<line x1="1101.8" y1="461.0" x2="1101.8" y2="489.0" stroke="#CC6F47" stroke-width="5"/>
+<circle cx="888.9" cy="475.0" r="13" fill="#CC6F47" stroke="#804126" stroke-width="3"/>
+<text x="70.0" y="689.0" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="normal" text-anchor="start" fill="#000000">LEE011 +</text>
+<text x="70.0" y="732.0" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="normal" text-anchor="start" fill="#000000">encorafenib</text>
+<line x1="649.1" y1="679.0" x2="990.1" y2="679.0" stroke="#5477C4" stroke-width="6"/>
+<line x1="649.1" y1="665.0" x2="649.1" y2="693.0" stroke="#5477C4" stroke-width="5"/>
+<line x1="990.1" y1="665.0" x2="990.1" y2="693.0" stroke="#5477C4" stroke-width="5"/>
+<circle cx="789.9" cy="679.0" r="13" fill="#5477C4" stroke="#2E4780" stroke-width="3"/>
+<line x1="767.6" y1="723.0" x2="1015.6" y2="723.0" stroke="#CC6F47" stroke-width="6"/>
+<line x1="767.6" y1="709.0" x2="767.6" y2="737.0" stroke="#CC6F47" stroke-width="5"/>
+<line x1="1015.6" y1="709.0" x2="1015.6" y2="737.0" stroke="#CC6F47" stroke-width="5"/>
+<circle cx="882.9" cy="723.0" r="13" fill="#CC6F47" stroke="#804126" stroke-width="3"/>
+<text x="70.0" y="938.0" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="normal" text-anchor="start" fill="#000000">BKM120 +</text>
+<text x="70.0" y="981.0" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="normal" text-anchor="start" fill="#000000">binimetinib</text>
+<line x1="570.6" y1="928.0" x2="810.9" y2="928.0" stroke="#5477C4" stroke-width="6"/>
+<line x1="570.6" y1="914.0" x2="570.6" y2="942.0" stroke="#5477C4" stroke-width="5"/>
+<line x1="810.9" y1="914.0" x2="810.9" y2="942.0" stroke="#5477C4" stroke-width="5"/>
+<circle cx="682.8" cy="928.0" r="13" fill="#5477C4" stroke="#2E4780" stroke-width="3"/>
+<line x1="411.5" y1="972.0" x2="639.0" y2="972.0" stroke="#CC6F47" stroke-width="6"/>
+<line x1="411.5" y1="958.0" x2="411.5" y2="986.0" stroke="#CC6F47" stroke-width="5"/>
+<line x1="639.0" y1="958.0" x2="639.0" y2="986.0" stroke="#CC6F47" stroke-width="5"/>
+<circle cx="526.0" cy="972.0" r="13" fill="#CC6F47" stroke="#804126" stroke-width="3"/>
+<line x1="1425.0" y1="1040.0" x2="2285.0" y2="1040.0" stroke="#000000" stroke-width="3"/>
+<line x1="1425.0" y1="110.0" x2="1425.0" y2="1040.0" stroke="#000000" stroke-width="3"/>
+<line x1="1425.0" y1="110.0" x2="1425.0" y2="1040.0" stroke="#D9D9D9" stroke-width="2"/>
+<line x1="1425.0" y1="1040.0" x2="1425.0" y2="1050.0" stroke="#000000" stroke-width="3"/>
+<text x="1425.0" y="1090.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="middle" fill="#000000">0</text>
+<line x1="1649.3" y1="110.0" x2="1649.3" y2="1040.0" stroke="#D9D9D9" stroke-width="2"/>
+<line x1="1649.3" y1="1040.0" x2="1649.3" y2="1050.0" stroke="#000000" stroke-width="3"/>
+<text x="1649.3" y="1090.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="middle" fill="#000000">300</text>
+<line x1="1873.7" y1="110.0" x2="1873.7" y2="1040.0" stroke="#D9D9D9" stroke-width="2"/>
+<line x1="1873.7" y1="1040.0" x2="1873.7" y2="1050.0" stroke="#000000" stroke-width="3"/>
+<text x="1873.7" y="1090.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="middle" fill="#000000">600</text>
+<line x1="2098.0" y1="110.0" x2="2098.0" y2="1040.0" stroke="#D9D9D9" stroke-width="2"/>
+<line x1="2098.0" y1="1040.0" x2="2098.0" y2="1050.0" stroke="#000000" stroke-width="3"/>
+<text x="2098.0" y="1090.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="middle" fill="#000000">900</text>
+<text x="1855.0" y="1145.0" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" text-anchor="middle" fill="#000000">Optimized total sample size</text>
+<circle cx="1555.9" cy="205.0" r="14" fill="#5477C4" stroke="#2E4780" stroke-width="3"/>
+<line x1="1555.9" y1="205.0" x2="1958.2" y2="205.0" stroke="#8C8C8C" stroke-width="5"/>
+<circle cx="1958.2" cy="205.0" r="14" fill="#CC6F47" stroke="#804126" stroke-width="3"/>
+<circle cx="1478.8" cy="453.0" r="14" fill="#5477C4" stroke="#2E4780" stroke-width="3"/>
+<line x1="1478.8" y1="453.0" x2="1559.6" y2="453.0" stroke="#8C8C8C" stroke-width="5"/>
+<circle cx="1559.6" cy="453.0" r="14" fill="#CC6F47" stroke="#804126" stroke-width="3"/>
+<circle cx="1488.6" cy="701.0" r="14" fill="#5477C4" stroke="#2E4780" stroke-width="3"/>
+<line x1="1488.6" y1="701.0" x2="1574.6" y2="701.0" stroke="#8C8C8C" stroke-width="5"/>
+<circle cx="1574.6" cy="701.0" r="14" fill="#CC6F47" stroke="#804126" stroke-width="3"/>
+<circle cx="2204.2" cy="950.0" r="14" fill="#5477C4" stroke="#2E4780" stroke-width="3"/>
+<text x="1785.0" y="960.0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="normal" text-anchor="start" fill="#000000">no finite lower-bound N</text>
+</svg>

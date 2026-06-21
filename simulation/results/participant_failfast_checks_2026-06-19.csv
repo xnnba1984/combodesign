@@ -1,0 +1,8 @@
+"check","passed","observed","expected"
+"IUT global-null full contribution error controlled",TRUE,"0.005375","<= 0.037"
+"IUT partial-null full contribution error controlled",TRUE,"0.02925","<= 0.037"
+"maxT separate-claim family-wise error controlled under global null",TRUE,"0.025875","<= 0.037"
+"positive alternative agrees with analytic approximation",TRUE,"0.005428","<= 0.035"
+"positive margins reduce joint power",TRUE,"0.540875 < 0.788","margin scenario lower than zero-margin scenario"
+"unequal variance alternative produces finite power",TRUE,"0.738","finite and positive"
+"heavy-tail null full contribution error not above fail-fast bound",TRUE,"0.0065","<= 0.045"

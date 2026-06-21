@@ -1,0 +1,9 @@
+case_role,component_a,component_b,combination,candidate,input_scenario,delta_ab_minus_a,delta_ab_minus_b,alpha,target_joint_power,clinical_covariance_model,valid_design_input
+primary_continuity_case,BYL719,binimetinib,BYL719 + binimetinib,BYL719 + binimetinib,plug_in,0.542,0.616,0.025,0.8,independent_arms,TRUE
+primary_continuity_case,BYL719,binimetinib,BYL719 + binimetinib,BYL719 + binimetinib,bootstrap_lower_95_effects,0.251,0.342,0.025,0.8,independent_arms,TRUE
+strong_comparison_case,LEE011,encorafenib,LEE011 + encorafenib,LEE011 + encorafenib,plug_in,0.745,0.95,0.025,0.8,independent_arms,TRUE
+strong_comparison_case,LEE011,encorafenib,LEE011 + encorafenib,LEE011 + encorafenib,bootstrap_lower_95_effects,0.456,0.716,0.025,0.8,independent_arms,TRUE
+strong_comparison_case,BYL719,LEE011,BYL719 + LEE011,BYL719 + LEE011,plug_in,0.845,0.96,0.025,0.8,independent_arms,TRUE
+strong_comparison_case,BYL719,LEE011,BYL719 + LEE011,BYL719 + LEE011,bootstrap_lower_95_effects,0.564,0.571,0.025,0.8,independent_arms,TRUE
+cautionary_sensitivity_case,BKM120,binimetinib,BKM120 + binimetinib,BKM120 + binimetinib,plug_in,0.524,0.183,0.025,0.8,independent_arms,TRUE
+cautionary_sensitivity_case,BKM120,binimetinib,BKM120 + binimetinib,BKM120 + binimetinib,bootstrap_lower_95_effects,0.284,-0.065,0.025,0.8,independent_arms,FALSE

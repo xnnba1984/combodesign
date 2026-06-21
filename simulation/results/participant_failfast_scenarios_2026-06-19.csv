@@ -1,0 +1,8 @@
+"scenario_id","purpose","N","allocation_A","allocation_B","allocation_AB","delta_AB_A","delta_AB_B","margin_AB_A","margin_AB_B","sigma2_A","sigma2_B","sigma2_AB","alpha","claim_regime","variance_method","distribution","nrep","seed"
+"global_null_iut","IUT full contribution error under global null",240,0.333333333333333,0.333333333333333,0.333333333333333,0,0,0,0,1,1,1,0.025,"full_contribution","common","normal",8000,19101
+"partial_null_iut","IUT full contribution error under partial null",240,0.333333333333333,0.333333333333333,0.333333333333333,0,0.5,0,0,1,1,1,0.025,"full_contribution","common","normal",8000,19102
+"positive_alt_iut","IUT participant-level power versus analytic approximation",240,0.333333333333333,0.333333333333333,0.333333333333333,0.45,0.55,0,0,1,1,1,0.025,"full_contribution","common","normal",8000,19103
+"separate_claim_global_maxT","maxT family-wise error for separate claims under global null",240,0.333333333333333,0.333333333333333,0.333333333333333,0,0,0,0,1,1,1,0.025,"separate_component_claims","common","normal",8000,19104
+"positive_margin_iut","positive margins reduce full contribution power",240,0.333333333333333,0.333333333333333,0.333333333333333,0.45,0.55,0.1,0.1,1,1,1,0.025,"full_contribution","common","normal",8000,19105
+"unequal_variance_alt_iut","IUT under unequal variances with Welch standard errors",260,0.3,0.3,0.4,0.45,0.55,0,0,1.2,1.6,1,0.025,"full_contribution","welch","normal",8000,19106
+"heavy_tail_null_iut","IUT robustness warning under heavy-tailed null outcomes",300,0.333333333333333,0.333333333333333,0.333333333333333,0,0,0,0,1,1,1,0.025,"full_contribution","common","t5",8000,19107

@@ -1,0 +1,9 @@
+check,value,status
+Main validation checks passed,9/9,pass
+Figure 3A source rows,15,pass
+Figure 3B source rows,20,pass
+Figure 3C source rows,6,pass
+Main simulation table rows,16,pass
+Figure files exist,6,pass
+Main source rounded to 3 decimals,yes,pass
+Main run used as source,participant_ademp_main_2026-06-19,pass

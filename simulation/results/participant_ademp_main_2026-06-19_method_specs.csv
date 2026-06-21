@@ -1,0 +1,7 @@
+"method_id","claim_regime","adjustment_method","allocation_strategy","manuscript_role"
+"equal_iut_full","full_contribution","iut","equal","transparent equal-allocation full-contribution baseline"
+"shared_arm_iut_full","full_contribution","iut","shared_arm_benchmark","shared-arm benchmark for two contribution comparisons"
+"plugin_iut_full","full_contribution","iut","plugin_joint_success","planned-effect allocation for the full-contribution IUT decision"
+"conservative_iut_full","full_contribution","iut","conservative_joint_success","conservative planned-effect allocation for uncertain contribution inputs"
+"marginal_iut_full","full_contribution","iut","marginal_power_comparator","diagnostic comparator that balances the weaker marginal contribution"
+"equal_maxT_separate","separate_component_claims","maxT","equal","optional separate component-claim family-wise analysis"

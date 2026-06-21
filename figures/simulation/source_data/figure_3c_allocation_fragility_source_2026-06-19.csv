@@ -1,0 +1,7 @@
+scenario_label,scenario_display,method_id,method_display,truth_delta_AB_minus_A,truth_delta_AB_minus_B,plan_delta_AB_minus_A,plan_delta_AB_minus_B,empirical_joint_success,lower,upper,analytic_joint_success,allocation_A,allocation_B,allocation_AB,nrep
+overoptimistic_planning,Overoptimistic planning,equal_iut_full,"Equal allocation, IUT",0.32,0.32,0.55,0.55,0.363,0.359,0.367,0.359,0.333,0.333,0.333,50000
+overoptimistic_planning,Overoptimistic planning,plugin_iut_full,"Plug-in allocation, IUT",0.32,0.32,0.55,0.55,0.362,0.358,0.366,0.359,0.333,0.333,0.333,50000
+overoptimistic_planning,Overoptimistic planning,conservative_iut_full,"Conservative allocation, IUT",0.32,0.32,0.55,0.55,0.359,0.355,0.363,0.359,0.333,0.333,0.333,50000
+reversed_limiting_component,Harder contrast reversed,equal_iut_full,"Equal allocation, IUT",0.25,0.55,0.55,0.25,0.375,0.371,0.38,0.373,0.333,0.333,0.333,50000
+reversed_limiting_component,Harder contrast reversed,plugin_iut_full,"Plug-in allocation, IUT",0.25,0.55,0.55,0.25,0.326,0.321,0.33,0.322,0.214,0.392,0.394,50000
+reversed_limiting_component,Harder contrast reversed,conservative_iut_full,"Conservative allocation, IUT",0.25,0.55,0.55,0.25,0.364,0.36,0.369,0.36,0.287,0.358,0.355,50000

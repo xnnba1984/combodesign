@@ -1,0 +1,5 @@
+case_role,component_a,component_b,combination,n_boot_requested,n_boot_valid,valid_boot_fraction,delta_ab_minus_a_median,delta_ab_minus_a_lcl,delta_ab_minus_a_ucl,delta_ab_minus_b_median,delta_ab_minus_b_lcl,delta_ab_minus_b_ucl,min_contribution_median,min_contribution_lcl,min_contribution_ucl,prob_both_contributions_positive,prob_min_contribution_gt_0_10
+primary_continuity_case,BYL719,binimetinib,BYL719 + binimetinib,2000,2000,1,0.565,0.251,1.066,0.642,0.342,1.123,0.528,0.247,0.956,1,1
+strong_comparison_case,LEE011,encorafenib,LEE011 + encorafenib,2000,2000,1,0.765,0.456,1.204,0.969,0.716,1.26,0.753,0.456,1.081,1,1
+strong_comparison_case,BYL719,LEE011,BYL719 + LEE011,2000,2000,1,0.858,0.564,1.189,0.982,0.571,1.449,0.824,0.521,1.148,1,1
+cautionary_sensitivity_case,BKM120,binimetinib,BKM120 + binimetinib,2000,2000,1,0.53,0.284,0.811,0.186,-0.065,0.434,0.186,-0.065,0.424,0.924,0.751

@@ -1,0 +1,13 @@
+check,pass,observed,expected
+source validation checks all passed,True,11/11,all pass
+figure PNG exists and is nonblank,True,2400 x 1350; nonwhite fraction 0.025,nonwhite fraction > 0.010
+figure text color set to black in script,True,all text draw calls use #000000,black figure text
+"figure has no internal title, subtitle, bottom note, or caption",True,"panel labels, axes, ticks, and legends only",caption remains outside figure
+main PDX table has four candidate rows,True,4,4
+figure_a_source decimals rounded to at most three places,True,checked with regex,no four-decimal numeric strings
+figure_b_source decimals rounded to at most three places,True,checked with regex,no four-decimal numeric strings
+main_table decimals rounded to at most three places,True,checked with regex,no four-decimal numeric strings
+supp_input_table decimals rounded to at most three places,True,checked with regex,no four-decimal numeric strings
+supp_design_table decimals rounded to at most three places,True,checked with regex,no four-decimal numeric strings
+supp_variance_sensitivity_table decimals rounded to at most three places,True,checked with regex,no four-decimal numeric strings
+supp_validation_table decimals rounded to at most three places,True,checked with regex,no four-decimal numeric strings

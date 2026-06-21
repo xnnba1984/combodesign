@@ -1,0 +1,11 @@
+scenario_label,method_id,allocation_strategy,N,nrep,truth_delta_AB_minus_A,truth_delta_AB_minus_B,plan_delta_AB_minus_A,plan_delta_AB_minus_B,allocation_A,allocation_B,allocation_AB,empirical_joint_success,analytic_joint_success,planned_analytic_joint_success
+overoptimistic_planning,equal_iut_full,equal,240,50000,0.32,0.32,0.55,0.55,0.333,0.333,0.333,0.363,0.359,0.889
+overoptimistic_planning,shared_arm_iut_full,shared_arm_benchmark,240,50000,0.32,0.32,0.55,0.55,0.293,0.293,0.414,0.356,0.356,0.896
+overoptimistic_planning,plugin_iut_full,plugin_joint_success,240,50000,0.32,0.32,0.55,0.55,0.333,0.333,0.333,0.362,0.359,0.889
+overoptimistic_planning,conservative_iut_full,conservative_joint_success,240,50000,0.32,0.32,0.55,0.55,0.333,0.333,0.333,0.359,0.359,0.889
+overoptimistic_planning,marginal_iut_full,marginal_power_comparator,240,50000,0.32,0.32,0.55,0.55,0.333,0.333,0.333,0.362,0.359,0.889
+reversed_limiting_component,equal_iut_full,equal,260,50000,0.25,0.55,0.55,0.25,0.333,0.333,0.333,0.375,0.373,0.373
+reversed_limiting_component,shared_arm_iut_full,shared_arm_benchmark,260,50000,0.25,0.55,0.55,0.25,0.293,0.293,0.414,0.385,0.381,0.381
+reversed_limiting_component,plugin_iut_full,plugin_joint_success,260,50000,0.25,0.55,0.55,0.25,0.214,0.392,0.394,0.326,0.322,0.417
+reversed_limiting_component,conservative_iut_full,conservative_joint_success,260,50000,0.25,0.55,0.55,0.25,0.287,0.358,0.355,0.364,0.36,0.392
+reversed_limiting_component,marginal_iut_full,marginal_power_comparator,260,50000,0.25,0.55,0.55,0.25,0.208,0.396,0.396,0.318,0.317,0.419

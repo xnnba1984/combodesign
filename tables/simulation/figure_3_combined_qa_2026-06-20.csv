@@ -1,0 +1,6 @@
+check,value,status
+Combined Figure 3 PDF exists,TRUE,pass
+Combined Figure 3 PNG exists,TRUE,pass
+Panel B legend requested as one row,nrow = 1,pass
+Panel B x axis uses joint power,Joint power,pass
+Harder contrast labels used in Panel B,Balanced positive; First contrast harder; Second contrast harder; Positive margin; Additive positive excess,pass

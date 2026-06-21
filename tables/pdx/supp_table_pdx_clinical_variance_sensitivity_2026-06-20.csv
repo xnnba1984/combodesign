@@ -1,0 +1,7 @@
+candidate,input_scenario,clinical_sd_multiplier,optimized_total_N,allocation_A,allocation_B,allocation_AB,reason,alpha,target_joint_power,clinical_covariance_model
+BYL719 + binimetinib,Lower bound,0.750,401,0.370,0.221,0.409,,0.025,0.800,independent randomized clinical-arm means
+BYL719 + binimetinib,Lower bound,1.000,713,0.370,0.221,0.409,,0.025,0.800,independent randomized clinical-arm means
+BYL719 + binimetinib,Lower bound,1.250,1114,0.370,0.221,0.409,,0.025,0.800,independent randomized clinical-arm means
+BYL719 + binimetinib,Plug-in,0.750,99,0.332,0.268,0.400,,0.025,0.800,independent randomized clinical-arm means
+BYL719 + binimetinib,Plug-in,1.000,175,0.332,0.268,0.400,,0.025,0.800,independent randomized clinical-arm means
+BYL719 + binimetinib,Plug-in,1.250,273,0.332,0.268,0.400,,0.025,0.800,independent randomized clinical-arm means

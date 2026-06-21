@@ -1,0 +1,5 @@
+candidate,case_role_for_manuscript,complete_pdx_triplets,plug_in_optimized_total_N,lower_bound_effect_total_N,plug_in_design_joint_power_under_lower_bound_effects,sample_size_inflation,planning_interpretation
+BYL719 + binimetinib,Primary case,42,175,713,0.189,4.074,Plug-in design has low joint power under lower-bound effects
+BYL719 + LEE011,Comparison case,39,72,180,0.33,2.5,Plug-in design has low joint power under lower-bound effects
+LEE011 + encorafenib,Comparison case,33,85,200,0.379,2.353,Plug-in design has low joint power under lower-bound effects
+BKM120 + binimetinib,Cautionary case,62,1042,No finite design,Not evaluated,Not evaluated,Lower-bound effects do not support both contribution inputs

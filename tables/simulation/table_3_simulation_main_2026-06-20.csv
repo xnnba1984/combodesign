@@ -1,0 +1,17 @@
+result_type,comparison,scenario,method,estimate,monte_carlo_interval,analytic_reference
+Error control,"IUT full contribution, worst primary null row",Partial null: second contrast,"Marginal comparator, IUT",0.027,"(0.025, 0.028)",0.025
+Error control,"maxT separate claims, global null",Global null,"Equal allocation, maxT separate claims",0.025,"(0.023, 0.026)",0.025
+Joint power,Balanced positive,Balanced positive,"Equal allocation, IUT",0.705,"(0.701, 0.709)",0.704
+Joint power,Balanced positive,Balanced positive,"Shared-arm, IUT",0.712,"(0.708, 0.716)",0.711
+Joint power,Balanced positive,Balanced positive,"Plug-in allocation, IUT",0.703,"(0.699, 0.707)",0.704
+Joint power,"First contrast harder, correctly planned",First contrast harder,"Equal allocation, IUT",0.452,"(0.448, 0.456)",0.448
+Joint power,"First contrast harder, correctly planned",First contrast harder,"Shared-arm, IUT",0.457,"(0.452, 0.461)",0.458
+Joint power,"First contrast harder, correctly planned",First contrast harder,"Plug-in allocation, IUT",0.503,"(0.499, 0.507)",0.499
+Joint power,"Second contrast harder, correctly planned",Second contrast harder,"Equal allocation, IUT",0.450,"(0.445, 0.454)",0.448
+Joint power,"Second contrast harder, correctly planned",Second contrast harder,"Shared-arm, IUT",0.459,"(0.455, 0.464)",0.458
+Joint power,"Second contrast harder, correctly planned",Second contrast harder,"Plug-in allocation, IUT",0.498,"(0.494, 0.502)",0.499
+Joint power,Harder contrast reversed,Harder contrast reversed,"Equal allocation, IUT",0.375,"(0.371, 0.380)",0.373
+Joint power,Harder contrast reversed,Harder contrast reversed,"Shared-arm, IUT",0.385,"(0.380, 0.389)",0.381
+Joint power,Harder contrast reversed,Harder contrast reversed,"Plug-in allocation, IUT",0.326,"(0.321, 0.330)",0.322
+Joint power,Harder contrast reversed,Harder contrast reversed,"Conservative allocation, IUT",0.364,"(0.360, 0.369)",0.360
+Joint power,Additive positive excess,Additive positive excess,"Plug-in allocation, IUT",0.503,"(0.499, 0.508)",0.504

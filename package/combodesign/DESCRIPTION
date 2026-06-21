@@ -1,0 +1,21 @@
+Package: combodesign
+Title: Component-Contribution Design for Drug Combination Trials
+Version: 0.1.0
+Authors@R: 
+    person(given = "Miles", family = "Xi", email = "nxi@ucla.edu",
+           role = c("aut", "cre"))
+Author: Miles Xi [aut, cre]
+Maintainer: Miles Xi <nxi@ucla.edu>
+Description: Implements one-sided component-contribution operating
+    characteristics, joint-power sample-size calculations, and allocation
+    comparisons for three-arm drug combination trials with component arms A
+    and B and combination arm AB.
+License: MIT + file LICENSE
+Depends: 
+    R (>= 4.1)
+Imports:
+    mvtnorm,
+    stats
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

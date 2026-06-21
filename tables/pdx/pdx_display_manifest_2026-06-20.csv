@@ -1,0 +1,11 @@
+artifact,path,exists,bytes
+figure_a_source,figures/pdx/source_data/figure_4a_pdx_contribution_uncertainty_source_2026-06-20.csv,True,444
+figure_b_source,figures/pdx/source_data/figure_4b_pdx_design_consequence_source_2026-06-20.csv,True,486
+main_table,tables/pdx/table_4_pdx_design_planning_main_2026-06-20.csv,True,709
+supp_input_table,tables/pdx/supp_table_pdx_input_uncertainty_2026-06-20.csv,True,885
+supp_design_table,tables/pdx/supp_table_pdx_design_outputs_full_2026-06-20.csv,True,3687
+supp_variance_sensitivity_table,tables/pdx/supp_table_pdx_clinical_variance_sensitivity_2026-06-20.csv,True,848
+supp_validation_table,tables/pdx/supp_table_pdx_validation_checks_2026-06-20.csv,True,1349
+figure_png,figures/pdx/figure_4_pdx_uncertainty_design_2026-06-20.png,True,56387
+figure_svg,figures/pdx/figure_4_pdx_uncertainty_design_2026-06-20.svg,True,9919
+figure_pdf,figures/pdx/figure_4_pdx_uncertainty_design_2026-06-20.pdf,True,4321

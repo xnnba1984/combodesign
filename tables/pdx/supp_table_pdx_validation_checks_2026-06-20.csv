@@ -1,0 +1,9 @@
+check,pass,observed,expected,detail
+source data has expected dimensions from PDX contract,True,4758 x 12,4758 x 12 after adding favorable_response,Raw file has 11 columns; script adds one derived endpoint column.
+all planned PDX candidates have at least 20 complete triplets,True,BYL719 + binimetinib=42; LEE011 + encorafenib=33; BYL719 + LEE011=39; BKM120 + binimetinib=62,all n_triplet >= 20,
+bootstrap effect validity fraction is high,True,BYL719 + binimetinib=1; LEE011 + encorafenib=1; BYL719 + LEE011=1; BKM120 + binimetinib=1,all valid fractions >= 0.95,
+clinical covariance model is independent randomized arms,True,independent_arms,independent_arms,PDX-derived arm correlations are not used in clinical design calculations.
+primary one-sided alpha is 0.025,True,0.025,0.025,
+plug-in joint optimized designs reach target joint power,True,BKM120 + binimetinib=0.8; BYL719 + LEE011=0.801; BYL719 + binimetinib=0.801; LEE011 + encorafenib=0.803,all >= 0.8,
+invalid lower-bound effect case is explicitly flagged rather than forced,True,BKM120 + binimetinib=FALSE; BYL719 + LEE011=TRUE; BYL719 + binimetinib=TRUE; LEE011 + encorafenib=TRUE,"invalid lower-bound effects flagged, valid lower-bound effects produce designs",
+primary plug-in design is evaluated under lower-bound contribution effects,True,0.189,finite lower-bound joint power value,

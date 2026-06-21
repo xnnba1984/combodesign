@@ -1,0 +1,16 @@
+scenario_label,scenario_display,method_id,method_display,empirical_error,lower,upper,analytic_error,nrep
+global_null,Global null,equal_iut_full,"Equal allocation, IUT",0.005,0.005,0.006,0.005,50000
+global_null,Global null,shared_arm_iut_full,"Shared-arm, IUT",0.004,0.003,0.004,0.003,50000
+global_null,Global null,plugin_iut_full,"Plug-in allocation, IUT",0.005,0.004,0.005,0.005,50000
+global_null,Global null,conservative_iut_full,"Conservative allocation, IUT",0.005,0.004,0.005,0.005,50000
+global_null,Global null,marginal_iut_full,"Marginal comparator, IUT",0.005,0.004,0.005,0.005,50000
+partial_null_AB_minus_A,Partial null: first contrast,equal_iut_full,"Equal allocation, IUT",0.025,0.023,0.026,0.025,50000
+partial_null_AB_minus_A,Partial null: first contrast,shared_arm_iut_full,"Shared-arm, IUT",0.025,0.024,0.026,0.024,50000
+partial_null_AB_minus_A,Partial null: first contrast,plugin_iut_full,"Plug-in allocation, IUT",0.025,0.024,0.026,0.025,50000
+partial_null_AB_minus_A,Partial null: first contrast,conservative_iut_full,"Conservative allocation, IUT",0.025,0.024,0.026,0.025,50000
+partial_null_AB_minus_A,Partial null: first contrast,marginal_iut_full,"Marginal comparator, IUT",0.025,0.024,0.026,0.025,50000
+partial_null_AB_minus_B,Partial null: second contrast,equal_iut_full,"Equal allocation, IUT",0.024,0.023,0.026,0.025,50000
+partial_null_AB_minus_B,Partial null: second contrast,shared_arm_iut_full,"Shared-arm, IUT",0.026,0.024,0.027,0.024,50000
+partial_null_AB_minus_B,Partial null: second contrast,plugin_iut_full,"Plug-in allocation, IUT",0.026,0.024,0.027,0.025,50000
+partial_null_AB_minus_B,Partial null: second contrast,conservative_iut_full,"Conservative allocation, IUT",0.024,0.023,0.026,0.025,50000
+partial_null_AB_minus_B,Partial null: second contrast,marginal_iut_full,"Marginal comparator, IUT",0.027,0.025,0.028,0.025,50000
