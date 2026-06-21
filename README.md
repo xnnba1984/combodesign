@@ -1,8 +1,7 @@
 # Component contribution design for combination therapy trials
 
-This repository contains the R package and reproducible analysis code for a
-paper on component-contribution designs in fixed three-arm combination therapy
-trials. The primary setting compares a combination arm, `AB`, with its two
+This repository contains the R package and reproducible analysis code for the
+paper "**Component Contribution Design for Combination Therapy Trials**". The primary setting compares a combination arm, `AB`, with its two
 single-component arms, `A` and `B`, and evaluates whether both components make
 the required contribution to the combination.
 
@@ -33,8 +32,7 @@ The code supports:
 └── reproducibility/
 ```
 
-`package/combodesign` is the R package. The other folders contain the analysis
-scripts, simulation scripts, public-data case-study scripts, generated tables,
+`package/combodesign` is the R package that implements the proposed method. The other folders contain the analysis scripts, simulation scripts, public-data case-study scripts, generated tables,
 generated figures, and a run-all QA driver.
 
 ## R setup
@@ -54,8 +52,6 @@ install.packages(c(
 ))
 ```
 
-The figure scripts can use `ragg` if it is installed, but it is optional.
-
 To install the local R package from a terminal:
 
 ```bash
@@ -73,10 +69,8 @@ After the repository is on GitHub, users can install it from R with:
 
 ```r
 install.packages("remotes")
-remotes::install_github("YOUR_GITHUB_USER/YOUR_REPO", subdir = "package/combodesign")
+remotes::install_github("xnnba1984/combodesign", subdir = "package/combodesign")
 ```
-
-Replace `YOUR_GITHUB_USER/YOUR_REPO` with the actual repository path.
 
 ## Quick example
 
@@ -147,11 +141,7 @@ than quick mode.
 ## Data note
 
 `data/combination.csv` is the public PDX combination-treatment data file used
-for the case-study analysis. Before making a public repository, confirm that
-redistributing the raw data file is acceptable under the source data terms and
-your institution's policy. If redistribution is not allowed, remove
-`data/combination.csv` and replace it with download instructions while keeping
-the same local file path for reproducibility.
+for the case-study analysis.
 
 ## Outputs
 
@@ -161,10 +151,3 @@ Important generated outputs are stored in:
 - `figures/simulation/`
 - `tables/pdx/`
 - `figures/pdx/`
-
-The `MANIFEST.csv` file lists every included file with byte size and SHA-256
-checksum.
-
-## License
-
-The R package uses the MIT license. See `LICENSE.md`.
